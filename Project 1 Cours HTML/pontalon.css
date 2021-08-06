@@ -1,0 +1,85 @@
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin:0;
+    font-family: 'Lobster', cursive;  
+    text-transform: uppercase;
+}
+
+
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(229, 151, 151);
+            margin:0 ;
+   }
+
+   img{
+    width: 100%;
+    display: block;
+   }
+
+    img:hover{
+    opacity:0.8;
+    transform:scale(1.12) ; /*les echelles d une image*/
+   transition: 0.8s ;
+    }
+   
+    .container{
+      text-align: center;  
+}
+ 
+.btn{
+       border: rgb(2, 253, 36) solid 3px; 
+    background-color: rgb(205, 238, 17);
+    border-radius: 30%;
+    color:#f7f7fd;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+  font-size: larger;
+  text-transform: uppercase;
+  line-height: 850px;
+}
+
+.btn:hover{
+    opacity:0.8;
+    transform:scale(1.12) ; /*les echelles d une image*/
+   transition: 0.8s ;
+    }
+
+    .class-title{
+    color: rgb(211, 156, 7);
+    height: 50px;
+     text-shadow: 1.5px 1.5px rgb(17, 1, 19);
+     font-size:100px;
+     margin-left:20px;
+     margin-right: 20px;
+     margin-top: -200px ;
+     margin-bottom: 20px;
+     padding-top: 50px;
+    
+    
+    }
+
+ .hero{
+      
+     height: 300px;
+    
+     background: url("image-principale.JPG") fixed;
+     padding-top: 200px;
+     padding-bottom: 200px;
+     background-size:cover;
+ }
+
+p{
+  margin-bottom: 20px ;
+  padding-bottom: 2cm;
+  line-height: 2cm;
+}
+
+    
